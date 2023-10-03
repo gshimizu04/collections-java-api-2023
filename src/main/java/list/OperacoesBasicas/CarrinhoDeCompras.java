@@ -41,13 +41,13 @@ public class CarrinhoDeCompras {
 		
 		cdc.exibirItens();
 		
-		cdc.adicionarItem("Dildo", 12.25, 3);
-		cdc.adicionarItem("LibidGel", 10.50, 2);
-		cdc.adicionarItem("Olla", 3.75, 6);
+		cdc.adicionarItem("Lapis", 12.25, 3);
+		cdc.adicionarItem("Caneta", 10.50, 2);
+		cdc.adicionarItem("PostIt", 3.75, 6);
 		
 		cdc.exibirItens();
 		System.out.println(cdc.calcularValorTotal());;
-		cdc.removerItem("Olla");
+		cdc.removerItem("Caneta");
 		cdc.exibirItens();
 		System.out.println(cdc.calcularValorTotal());;
 	}
